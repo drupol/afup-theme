@@ -2,6 +2,8 @@
 
 [AFUP][http afup] theme for LaTeX.
 
+This is based on [DockLatex][http DockLatex].
+
 ## Requirements
 
 * [Go Task][http go task] or [Makefile][http makefile]
@@ -87,6 +89,7 @@ The project comes with a handful of LaTeX sample projects:
 * Create proper issues in Github
 
 [http afup]: https://afup.org
+[http DockLatex]: https://github.com/loophp/DockLatex
 [http go task]: https://taskfile.dev
 [http makefile]: https://www.gnu.org/software/make/
 [http docker]: https://www.docker.com/
