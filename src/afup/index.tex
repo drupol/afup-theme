@@ -8,13 +8,11 @@
 	\titlepage{}
 \end{frame}
 
-\begin{frame}{Foo}{Bar}
-    A simple frame with some text and a list
+\begin{frame}{Text}
+    A simple frame with some text.
+\end{frame}
 
-    \begin{itemize}
-        \item Item 1\footnotemark
-    \end{itemize}
-
+\begin{frame}{Blocks}{Some example of blocks}
     \begin{block}{A block}
         This is a simple block
     \end{block}
@@ -28,6 +26,29 @@
     \end{alertblock}
 
     \footnotetext[1]{A test footnote}
+\end{frame}
+
+\begin{frame}{List}
+    Some items in a list.
+
+    \begin{itemize}[<+->]
+        \item Item 1
+        \item Item 2
+        \item Item 3
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Code}{PHP}
+    \begin{lstlisting}
+        <?php
+
+        $data = ['variable'];
+
+        foreach ($data as $k =>$v) {
+
+        }
+    \end{lstlisting}
 \end{frame}
 
 \begin{frameA}{Frame A title}{Frame A subtitle}
