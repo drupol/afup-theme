@@ -1,0 +1,45 @@
+\input{preamble}
+\input{itemize}
+\input{frames}
+
+\begin{document}
+
+\begin{frame}[plain]
+	\titlepage{}
+\end{frame}
+
+\begin{frame}{Foo}{Bar}
+    A simple frame with some text and a list
+
+    \begin{itemize}
+        \item Item 1\footnotemark
+    \end{itemize}
+
+    \begin{block}{A block}
+        This is a simple block
+    \end{block}
+
+    \begin{exampleblock}{An example block}
+        This is a an example block
+    \end{exampleblock}
+
+    \begin{alertblock}{An alert block}
+        This is an alert block
+    \end{alertblock}
+
+    \footnotetext[1]{A test footnote}
+\end{frame}
+
+\begin{frameA}{Frame A title}{Frame A subtitle}
+\end{frameA}
+
+\begin{frameB}{Frame B title}{Frame B subtitle}
+\end{frameB}
+
+\begin{frameC}{Frame C title}{Frame C subtitle}
+\end{frameC}
+
+\begin{frameD}{Frame D title}{Frame D subtitle}
+\end{frameD}
+
+\end{document}

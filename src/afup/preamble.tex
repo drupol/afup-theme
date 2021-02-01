@@ -1,0 +1,48 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{kantlipsum}
+\usepackage{listings,xcolor}
+\usepackage{inconsolata}
+\usepackage{spverbatim}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{array}
+
+\definecolor{dkgreen}{rgb}{0,.6,0}
+\definecolor{dkblue}{rgb}{0,0,.6}
+\definecolor{dkyellow}{cmyk}{0,0,.8,.3}
+
+\lstset{
+  language         = php,
+  basicstyle       = \scriptsize\ttfamily,
+  keywordstyle     = \color{dkblue},
+  stringstyle      = \color{red},
+  identifierstyle  = \color{dkgreen},
+  commentstyle     = \color{gray},
+  emph             =[1]{php},
+  emphstyle        =[1]\color{black},
+  emph             =[2]{if,and,or,else},
+  emphstyle        =[2]\color{dkyellow}
+  showstringspaces = false,
+  numbers          = left,
+  }
+
+\input{git}
+
+\title{Presentation title}
+\subtitle{Presentation subtitle}
+\institute{Institute}
+\date[2021]{Date}
+\author[Pol]{Author}
+\logo{
+    \vspace{-.3cm}
+    \tikz{
+        \node[opacity=0.15, inner sep=0.10cm, outer sep=0cm]{
+            \includegraphics[scale=0.35, keepaspectratio]{afup/style/logo/afup-icon+name-color}
+        }
+    }
+}
+
+\usetheme{afup}
