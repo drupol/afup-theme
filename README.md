@@ -1,6 +1,6 @@
 # LaTex AFUP Theme
 
-[AFUP] theme for LaTeX.
+[AFUP][http afup] theme for LaTeX.
 
 ## Requirements
 
@@ -62,7 +62,7 @@ The resulting PDF files will be in the `build/` directory.
 
 The project comes with a handful of LaTeX sample projects:
 
-* `src/afup`: A sample presentation
+* `src/afup`: A sample AFUP presentation
 
 ## FAQ
 
